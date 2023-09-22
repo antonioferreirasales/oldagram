@@ -56,16 +56,13 @@ header .container {
 
 .post-image {
   width: inherit;
+  cursor: pointer;
 }
 
 .post-footer {
   padding-bottom: 1rem;
   margin-bottom: 1.56rem;
 }
-
-/* .post-footer .text-callout {
-  padding: .75rem 0 .75rem .81rem;
-} */
 
 .post-icons {
   display: flex;

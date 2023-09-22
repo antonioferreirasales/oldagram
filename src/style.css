@@ -10,6 +10,7 @@ html, body {
 .text-callout {
   font-size: 0.8125rem;
   font-weight: 700;
+  margin-right: .2rem;
 }
 
 header .container {
@@ -40,6 +41,7 @@ header .container {
   width: 2.125rem;
   height: 100%;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .post-header {
@@ -61,9 +63,9 @@ header .container {
   margin-bottom: 1.56rem;
 }
 
-.post-footer .text-callout {
+/* .post-footer .text-callout {
   padding: .75rem 0 .75rem .81rem;
-}
+} */
 
 .post-icons {
   display: flex;
@@ -76,6 +78,7 @@ header .container {
   cursor: pointer;
 }
 
-.description {
+.comment {
   display: block;
+  margin: 0 .81rem;
 }

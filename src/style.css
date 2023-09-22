@@ -2,22 +2,33 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Source Sans 3', sans-serif;
+  background-color: #C6C6C6;
+}
+
+/* typography */
+
+.text-callout {
+  font-size: 0.8125rem;
+  font-weight: 700;
 }
 
 header .container {
   display: flex;
   justify-content: space-between;
-  height: 4.1875rem;
+  align-items: center;
   margin-top: 1.25rem;
+  border-bottom: 1px solid #C6C6C6;
 }
 
 .container {
   width: 23.4375rem;
-  border: 1px solid #C6C6C6;
   margin: 0 auto;
+  font-size: 0.8125rem;
+  background-color: #fff;
 }
 
 #header-logo {
+  width: 7.9375rem;
   padding: 0 1rem;
 }
 
@@ -27,6 +38,44 @@ header .container {
 
 .icon-avatar {
   width: 2.125rem;
+  height: 100%;
   border-radius: 50%;
-  margin: auto 0;
+}
+
+.post-header {
+  display: flex;
+  gap: 0.45rem;
+  padding: 0.62rem;
+}
+
+.location {
+  display: block;
+}
+
+.post-image {
+  width: inherit;
+}
+
+.post-footer {
+  padding-bottom: 1rem;
+  margin-bottom: 1.56rem;
+}
+
+.post-footer .text-callout {
+  padding: .75rem 0 .75rem .81rem;
+}
+
+.post-icons {
+  display: flex;
+  gap: .5rem;
+  padding-left: .62rem;
+}
+
+.icons {
+  width: 2rem;
+  cursor: pointer;
+}
+
+.description {
+  display: block;
 }

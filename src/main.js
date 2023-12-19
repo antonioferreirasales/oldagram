@@ -27,10 +27,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 renderPosts();
 
-// giveLikeEl.addEventListener("dblclick", function () {
-//   console.log("click");
-// });
-
 function renderPosts() {
   for (let i = 0; i < posts.length; i++) {
     let profile = posts[i];
